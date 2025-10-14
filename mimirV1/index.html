@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mimir</title>
+  <meta name="description" content="Mimir - a digital library built by Aymane where stories, knowledge, and self-growth meet.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/stylesheet.css" />
+</head>
+
+<body>
+
+  
+  <div class="nav-container">
+    <h1 class="logo">Mimir</h1>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="allbooks.html">All Books</a></li>
+        <li><a href="request.html">Request Book</a></li>
+        <li><a href="single-book.html">Single Book</a></li>
+        <li><a href="login.html">Login / Sign Up</a></li>
+      </ul>
+      <div class="menu-icon">&#9776;</div>
+    </nav>
+  </div>
+
+  
+  <header class="hero">
+    <div class="circle"></div>
+    <h2>A Reader Lives a<br>Thousand Lives Before<br>he Dies.</h2>
+    <form class="search-bar">
+      <input type="text" placeholder="Search by book or author" />
+    </form>
+  </header>
+
+
+  <section class="recent">
+    <h3>Recently Added</h3>
+    <div class="book-grid">
+        <div class="book"><img src="images/the-intuition-of-human-being.png" alt=""><p>The Intuition of Human Being</p><small><p>By Laksimi Aymane</small></p></div>
+        <div class="book"><img src="images/ink.jpg" alt=""><p>Ink</p><p><small>By Olivia Wilson</small></p></div>
+        <div class="book"><img src="images/night-sky.jpg" alt=""><p>Under Midnight Skies</p><p><small>By Denis</small></p></div>
+        <div class="book"><img src="images/struggles.png" alt=""><p>Struggles</p><p><small>By Laksimi Aymane</small></p></div>
+        <div class="book"><img src="images/mysterious.jpg" alt=""><p>Mysterious</p><p><small>by Margarita perez</small></p></div>
+        <div class="book"><img src="images/nobody.png" alt=""><p>No Body Knows</p><p><small>By Laksimi Aymane</small></p></div>
+        <div class="book"><img src="images/black.jpg" alt=""><p>Mariana</p><p><small>By Bailey Dupont</small></p></div>
+        <div class="book"><img src="images/white.jpg" alt=""><p>The Cupid</p><p>By Olivia Wilson</p></div>
+    </div>
+
+    <div class="center">
+      <a href="allbooks.html" class="all-books-btn">All Books →</a>
+    </div>
+  </section>
+
+  
+  <section class="book-week">
+    <h3>Book Of The Week</h3>
+    <div class="book-week-card">
+      <img src="images/struggles.png" alt="Struggles" />
+      <div class="book-week-info">
+        <h2>Struggles</h2>
+        <small>By <strong>Aymane Laksimi</strong> • 2025 • Philosophy / Self-Development</small>
+        <p>“Within every struggle lies the seed of transformation.”</p>
+        <p><strong>Struggles</strong> is not just a book — it’s a mirror held to the soul. It follows a young man who learns to turn pain into purpose, failure into fuel, and silence into strength.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer>
+    <p><strong>Mimir</strong> — YouCode Library Books List</p>
+  </footer>
+
+  
+  <script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuIcon.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+</body>
+</html>
+
