@@ -1,0 +1,723 @@
+/* === GLOBAL === */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f9f6f1;
+  color: #2b2b2b;
+  line-height: 1.6;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+}
+.who {
+    /* image 1 */
+
+position: absolute;
+width: 3631px;
+height: 2687px;
+
+
+
+/* Register (1) 1 */
+
+position: absolute;
+width: 4096px;
+height: 2198px;
+
+
+
+/* image 2 */
+
+position: absolute;
+width: 3631px;
+height: 2687px;
+
+
+
+/* Register (1) 2 */
+
+position: absolute;
+width: 4096px;
+height: 2198px;
+
+
+
+/* who we are */
+
+position: absolute;
+width: 650px;
+height: 73px;
+left: 232px;
+top: 348px;
+
+font-family: 'Raleway';
+font-style: italic;
+font-weight: 300;
+font-size: 100px;
+line-height: 87%;
+/* or 87px */
+letter-spacing: 0.1em;
+
+color: #A96B6B;
+
+
+
+/* who we are */
+
+position: absolute;
+width: 712px;
+height: 71px;
+left: 241px;
+top: 324px;
+
+font-family: 'Raleway';
+font-style: italic;
+font-weight: 300;
+font-size: 100px;
+line-height: 87%;
+/* or 87px */
+letter-spacing: 0.1em;
+
+color: #000000;
+
+opacity: 0.1;
+
+}
+
+.who-1 {
+    /* image 1 */
+
+position: absolute;
+width: 3631px;
+height: 2687px;
+
+
+
+/* Register (1) 1 */
+
+position: absolute;
+width: 4096px;
+height: 2198px;
+
+
+
+/* image 2 */
+
+position: absolute;
+width: 3631px;
+height: 2687px;
+
+
+
+/* Register (1) 2 */
+
+position: absolute;
+width: 4096px;
+height: 2198px;
+
+
+
+/* Mimir Library is a modern space dedicated to knowledge, curiosity, and continuous learning. Our mission is to make reading and research accessible to everyone by combining a calm, welcoming environment with a carefully curated collection of books. Whether you’re a student, researcher, or lifelong learner, Mimir Library is here to guide and inspire your journey through knowledge. */
+
+position: absolute;
+width: 643px;
+height: 477px;
+left: 242px;
+top: 465px;
+
+font-family: 'Raleway';
+font-style: italic;
+font-weight: 300;
+font-size: 40px;
+line-height: 87%;
+/* or 35px */
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+
+.why {
+    
+    /* Wy Us */
+position: absolute;
+width: 650px;
+height: 73px;
+left: 1002px;
+top: 593px;
+
+font-family: 'Raleway';
+font-style: italic;
+font-weight: 300;
+font-size: 100px;
+line-height: 87%;
+/* or 87px */
+letter-spacing: 0.1em;
+
+color: #8B6561;
+
+
+
+}
+
+.whoV {
+    /* who we are */
+
+position: absolute;
+width: 850px;
+height: 73px;
+left: 232px;
+top: 348px;
+
+font-family: 'Raleway';
+font-style: italic;
+font-weight: 300;
+font-size: 100px;
+line-height: 87%;
+/* or 87px */
+letter-spacing: 0.2em;
+
+color: #A96B6B;
+
+
+}
+
+.why-me {
+    /* Wy Us */
+position: absolute;
+width: 712px;
+height: 71px;
+left: 1034px;
+top: 567px;
+
+font-family: 'Raleway';
+font-style: italic;
+font-weight: 300;
+font-size: 100px;
+line-height: 87%;
+/* or 87px */
+letter-spacing: 0.1em;
+
+color: #000000;
+
+opacity: 0.1;
+
+}
+
+.why-us {
+    /* At Mimir Library, we believe that learning should be both enjoyable and meaningful. That’s why we go beyond simply offering books — we provide a space to explore, connect, and grow. Our collection is updated regularly, our staff is always ready to help, and our digital tools make finding information easier than ever. Choosing Mimir means joining a community that values discovery, creativity, and the love of knowledge. */
+
+position: absolute;
+width: 889px;
+height: 444px;
+left: 1002px;
+top: 741px;
+
+font-family: 'Raleway';
+font-style: italic;
+font-weight: 300;
+font-size: 40px;
+line-height: 87%;
+/* or 35px */
+letter-spacing: 0.1em;
+
+color: #000000;
+
+
+}
+.menu-icon {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* === HERO === */
+.hero {
+  text-align: center;
+  position: relative;
+  padding: 4rem 1rem 3rem;
+}
+
+.circle {
+  position: absolute;
+  top: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  background-color: #87c9c1;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.hero h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  position: relative;
+  z-index: 2;
+  font-weight: 500;
+  color: #222;
+  line-height: 1.3;
+}
+
+.search-bar input {
+  margin-top: 2rem;
+  padding: 10px 20px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  outline: none;
+}
+
+/* === RECENTLY ADDED === */
+.recent {
+  padding: 2rem;
+}
+
+.recent h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+}
+
+.book img {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book p {
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.all-books-btn {
+  text-decoration: none;
+  background-color: #f4ede4;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #222;
+  font-size: 0.85rem;
+  border: 1px solid #ddd;
+}
+
+/* === BOOK OF THE WEEK === */
+.book-week {
+  background-color: #f5ede6;
+  padding: 2.5rem 1.5rem;
+}
+
+.book-week h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.book-week-card {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.book-week-card img {
+  width: 180px;
+  border-radius: 8px;
+}
+
+.book-week-info h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.book-week-info small {
+  display: block;
+  margin: 0.5rem 0;
+  color: #b8860b;
+}
+
+.book-week-info p {
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.3rem;
+  line-height: 1.6;
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #f4ede4;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+.hhh {
+    margin-top: 100%;
+}
+
+.h2v2 {
+    display: flex;
+    color: #2C2C2C;
+    justify-content: center;
+    align-item: center;
+
+    font-family: 'love light', cursive;
+    font-size: 45px;
+
+    color: #2C2C2C;
+
+}
+
+/* Navbar container */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background-color: #faf7f2;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #111;
+  letter-spacing: 0.5px;
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.loginB {
+    text-align: center;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  color: #0a5c55;
+}
+
+/* Hamburger icon (for mobile) */
+.menu-icon {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  }
+.
+  .nav-links.show {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+/* Request Book Page */
+.request-section {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #f9f6f1;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+/* .pad1 {
+    max-width: 600px;
+    margin: 60px auto;
+    padding:30px;
+    background: #f9f6f1;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+} */
+.request-form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.request-form input,
+.request-form textarea {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+
+.submit-btn {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.submit-btn:hover {
+  background: #444;
+}
+
+.subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Book Display Section */
+.book-display {
+  padding: 3rem 5%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.book-display h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #2c2c2c;
+}
+
+.haha {
+    margin-top: 100%;
+}
+.book-content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.book-image-section {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 120px;
+}
+
+.book-image-section img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+
+.book-details-section {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.book-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #2c2c2c;
+}
+
+.book-meta {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #e8dcc8;
+}
+
+.book-meta strong {
+  color: #2c2c2c;
+}
+
+.book-quote {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #8b7355;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(139, 115, 85, 0.05);
+  border-left: 4px solid #8b7355;
+  border-radius: 5px;
+}
+
+.book-description {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+@media(max-width: 768px) {
+.pad {
+    margin-bottom: 200rem;
+    line-height: 1.8;
+    color: #443;
+}
+.pad2 {
+    align-items: end;
+    justify-content: center;
+}
+}
+.book-description p {
+  margin-bottom: 1.2rem;
+}
+
+.book-description strong {
+  color: #2c2c2c;
+  font-weight: 600;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0.9rem 2rem;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-primary {
+  background: #8b7355;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #72604a;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(139, 115, 85, 0.3);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #8b7355;
+  border: 2px solid #8b7355;
+}
+
+.btn-secondary:hover {
+  background: #8b7355;
+  color: white;
+}
+
+/* Additional Info Section */
+.additional-info {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #e8dcc8;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.info-item {
+  background: rgba(139, 115, 85, 0.05);
+  padding: 1.2rem;
+  border-radius: 10px;
+}
+
+.info-item h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.9rem;
+  color: #8b7355;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.info-item p {
+  color: #2c2c2c;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .book-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+    
+  .book-image-section {
+    position: static;
+  }
+
+  .book-details-section {
+    padding: 1.5rem;
+  }
+
+  .book-title {
+    font-size: 2rem;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
