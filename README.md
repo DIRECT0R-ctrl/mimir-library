@@ -18,7 +18,7 @@ It offers a simple, elegant interface that allows users to browse books, request
 
 ## 🗂️ Project Structure
 
-Mimir/
+Mimir/<br>
 │
 ├── index.html<br>
 ├── allbooks.html
