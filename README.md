@@ -20,7 +20,7 @@ It offers a simple, elegant interface that allows users to browse books, request
 
 Mimir/
 │
-├── index.html
+├── index.html<br>
 ├── allbooks.html
 ├── request.html
 ├── single-book.html
