@@ -1,45 +1,22 @@
-📚 Mimir Library
+# 📚 Mimir Library
 
-Mimir is a digital library project built by Aymane Laksimi — a space where stories, knowledge, and self-growth meet.
-It was designed with HTML and CSS to reflect simplicity, focus, and harmony between design and purpose.
+**Mimir** is a digital library project built by **Aymane Laksimi**, where **stories, knowledge, and self-growth** meet.  
+It offers a simple, elegant interface that allows users to browse books, request new titles, and explore featured selections — all in one minimalist design.
 
-🧠 Overview
+---
 
-Mimir is a front-end project that represents a modern digital library interface.
-The goal is to give users a smooth and inspiring experience while exploring books, discovering new titles, and connecting with the idea that “a reader lives a thousand lives before he dies.”
+## ✨ Features
 
-This project was developed as part of the YouCode training program, focusing on mastering HTML and CSS fundamentals through real-world design.
+- 🏠 **Home Page** — Showcases recently added books and the “Book of the Week.”  
+- 📖 **All Books Page** — Displays a complete list of available books.  
+- 📝 **Request Page** — Lets users request new books to be added to the library.  
+- 🔍 **Search Bar** — Quickly search by book title or author.  
+- 👤 **Login / Sign Up Page** — For future user authentication and personalization.  
+- 💡 **Responsive Design** — Designed for readability and clarity across all devices.
 
-🎯 Objectives
+---
 
-Apply clean and semantic HTML structure.
-
-Build a responsive and visually balanced CSS layout.
-
-Recreate a professional library environment with multiple pages.
-
-Strengthen design sense and attention to detail.
-
-🧩 Features
-
-✅ Home Page — Intro quote, navigation bar, and highlighted “Book of the Week”.
-✅ All Books Page — Displays all available books in an organized grid.
-✅ Single Book Page — Focused display of one featured book.
-✅ Request Page — A form for users to suggest new books.
-✅ Login / Sign Up Page — Clean entry point for user access (UI only).
-✅ Navigation Bar — Accessible across all pages for smooth transitions.
-
-🖥️ Technologies Used
-
-HTML5 — For semantic structure and accessibility.
-
-CSS3 — For layout, color, typography, and responsiveness.
-
-Google Fonts — Elegant typography using Inter and Playfair Display.
-
-No JavaScript — Focused on mastering static design principles.
-
-🗂️ Project Structure
+## 🗂️ Project Structure
 
 Mimir/
 │
@@ -50,27 +27,57 @@ Mimir/
 ├── login.html
 │
 ├── css/
-│   └── stylesheet.css
+│ └── stylesheet.css
 │
 └── images/
-    ├── struggles.png
-    ├── the-intuition-of-human-being.png
-    ├── ink.jpg
-    ├── night-sky.jpg
-    ├── mysterious.jpg
-    ├── nobody.png
-    ├── black.jpg
-    └── white.jpg
+├── struggles.png
+├── the-intuition-of-human-being.png
+├── ink.jpg
+├── night-sky.jpg
+├── mysterious.jpg
+├── nobody.png
+├── black.jpg
+└── white.jpg
 
-💬 Design Philosophy
 
-Mimir was designed around the idea that reading is self-discovery.
-Every visual element — from the soft typography to the structured grid — represents focus, growth, and mental clarity.
-It’s not just a student project; it’s a reflection of how design can communicate purpose.
+---
 
-👨‍💻 Author
+## 🎨 Design Inspiration
 
-Aymane Laksimi
-📍 YouCode Student | Builder | Deep Thinker
-💡 Passionate about psychology, philosophy, and digital creation.
-🌐 Building projects that blend logic, emotion, and purpose.
+The design was first created on **Figma** and later implemented using **HTML5** and **CSS3**.  
+It emphasizes **minimalism**, **balance**, and **aesthetic readability**, reflecting the calm and intellectual spirit of a true library.
+
+---
+
+## 🚀 How to View
+
+1. Clone or download this repository.
+2. Open `index.html` in your browser.
+3. Navigate using the top-right navigation bar.
+
+---
+
+## 🧠 Built With
+
+- **HTML5**
+- **CSS3**
+- **Google Fonts** (`Inter`, `Playfair Display`)
+- **Figma Design Prototype**
+
+---
+
+## 👨‍💻 Author
+
+**Aymane Laksimi**  
+📍 YouCode — DAR HAMZA 
+📫 [Discord Server](https://discord.gg/Z4S4CkW9)  
+💬 Passionate about self-development, design, and building purposeful digital experiences.
+
+---
+
+## 🪶 License
+
+This project is open-source and free to explore for learning and personal use.
+
+---
+
