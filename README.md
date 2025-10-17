@@ -40,3 +40,37 @@ Google Fonts — Elegant typography using Inter and Playfair Display.
 No JavaScript — Focused on mastering static design principles.
 
 🗂️ Project Structure
+
+Mimir/
+│
+├── index.html
+├── allbooks.html
+├── request.html
+├── single-book.html
+├── login.html
+│
+├── css/
+│   └── stylesheet.css
+│
+└── images/
+    ├── struggles.png
+    ├── the-intuition-of-human-being.png
+    ├── ink.jpg
+    ├── night-sky.jpg
+    ├── mysterious.jpg
+    ├── nobody.png
+    ├── black.jpg
+    └── white.jpg
+
+💬 Design Philosophy
+
+Mimir was designed around the idea that reading is self-discovery.
+Every visual element — from the soft typography to the structured grid — represents focus, growth, and mental clarity.
+It’s not just a student project; it’s a reflection of how design can communicate purpose.
+
+👨‍💻 Author
+
+Aymane Laksimi
+📍 YouCode Student | Builder | Deep Thinker
+💡 Passionate about psychology, philosophy, and digital creation.
+🌐 Building projects that blend logic, emotion, and purpose.
